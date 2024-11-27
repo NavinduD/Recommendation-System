@@ -1,0 +1,36 @@
+# Virtual Environment
+venv/
+env/
+*.venv
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# TensorFlow
+*.tfrecord
+*.h5
+*.pb
+models/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/
+checkpoints/
